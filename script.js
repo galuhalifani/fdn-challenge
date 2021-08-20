@@ -230,7 +230,7 @@ function groupAppend() {
                 <img src="./assets/group-${i+1}.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Embrace the Curl</h5>
-                    <img src="./assets/group-icons.jpg" class="card-img-top" style='height:30px!important; width:unset'>
+                    <img src="./assets/group-icons.jpg" class="card-img-top" style='height:unset!important; width:80%'>
                     <p class="card-text" style='font-size:11px; margin-top:5px'>May our curls pop and never stop!</p>
                 </div>
             </div>
