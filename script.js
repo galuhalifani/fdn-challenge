@@ -98,13 +98,13 @@ $.getJSON( "./data/matches.json", function( json ) {
         // append the card
         matchesCards +=
         `
-        <div id='matches-col' class="col-sm-3 p-2" style='margin-right: 15px'>
+        <div id='matches-col' class="col-sm-3 p-2" style='margin-right: 15px; width: 26%'>
 
-            <div class="card h-100" style='border-radius: 15px'>
+            <div class="card h-100" style='border-radius: 15px;'>
                 <img src="./assets/matches-${i+1}.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-body" >
                     <p style='color:#da284f; font-weight:bold'>Match Skin Type</p>
-                    <div class='card-rating d-flex'>
+                    <div class='card-rating d-flex' style='width: 80%'>
                         <p class='rating'>${matchesJson[i].rating}</p>
                         <div class='stars d-flex'>
                         ${stars}

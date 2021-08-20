@@ -1,6 +1,6 @@
 body {
-    margin-left: 10%;
-    margin-right: 10%
+    margin-left: 5%;
+    margin-right: 5%
 }
 
 .navbar {
@@ -57,7 +57,7 @@ body {
 }
 
 .ads-banner {
-    width: 65%;
+    width: 70%;
     text-align: center;
     margin: 10px auto
 }
@@ -92,7 +92,7 @@ body {
 }
 
 .cards-section {
-    width: 75%;
+    width: 80%;
     margin: 4% auto
 }
 
@@ -271,5 +271,5 @@ body {
 
 #footer img {
     margin: 0 auto;
-    height: 170px
+    width: 100%
 }
