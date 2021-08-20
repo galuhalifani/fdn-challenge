@@ -19,7 +19,7 @@
             <div class='searchBar'>
             <form class="d-flex" style='width:100%; height: 35px'>
                 <i class="fas fa-search" style='position:absolute; margin-top: 12px; margin-left:5px; font-size: 12px; color: lightgrey'></i>
-                <input style='font-size:10px' class="form-control me-2" type="search" placeholder="Search products, articles, topics, brands, etc." aria-label="Search">
+                <input style='font-size:13px' class="form-control me-2" type="search" placeholder="Search products, articles, topics, brands, etc." aria-label="Search">
             </form>
             </div>
             <button class="btn btn-danger signup-button" type="submit"><img src='./assets/user-icon.jpg' style='height:25px; margin-top: -3px; margin-right: 8px'>LOGIN / SIGNUP</button>
@@ -41,103 +41,169 @@
       <hr style='margin:unset; margin-top: 0.5rem'>
 
       <!-- ADS BANNER -->
-      <section id='ads-banner'>
-        <div id='top-frame'>Top Frame 970x50</div>
-        <div id='billboard'>Billboard 970x250</div>
+      <section id='ads-banner' class='ads-banner'>
+        <div id='top-frame' class='top-bottom-frame'>Top Frame 970x50</div>
+        <div id='billboard' class='big-ads'>Billboard 970x250</div>
       </section>
 
       <!-- EDITORS CHOICE -->
-      <section id='editors-choice'>
+      <section id='editors-choice' class='cards-section'>
         <h6 style='font-weight: bold;'>Editor's Choice</h6>
         <p style='font-size: 14px; color: grey'>Curated with love</p>
         
         <div id='editors-choice-row' class="row">
+        </div>
+      </section>
 
-          <!-- <div class="col p-1">
-            <div class='editor d-flex'>
-              <img src="./assets/curator-1.jpg" class="editor-pic" alt="...">
-              <div class='editor-detail'>
-                <p class='editor-name'>Arinda</p>
-                <p class='editor-role'>Senior Editor</p>
-              </div>
+      <!-- MATCHES -->
+      <section id = 'matches'>
+        <div class='matches d-flex' style='justify-content:flex-start; align-items: flex-end;'>
+            <img class='matches-banner' src='./assets/matches.jpg'/>
+          <div id='matches-row' class="row">
+          </div>
+        </div>
+      </section>
+
+      <!-- ADS BANNER 2 -->
+      <section id='ads-banner-2' class='ads-banner'>
+        <div id='horizontal' class='big-ads'>
+          <div>Horizontal 970x250<br>(Internal Campaign Only)</div>
+        </div>
+      </section>
+
+      <!-- LATEST ARTICLES -->
+      <section id='latest-articles' class='cards-section'>
+        <h6 style='font-weight: bold;'>Latest Articles</h6>
+        <div class='d-flex justify-content-between'>
+          <p style='font-size: 14px; color: grey'>So you can make better purchase decision</p>
+          <p style='font-size: 14px; color: red'>See More  > </p>
+        </div>
+        
+        <div id='articles-row' class="row" style='justify-content: unset;'>
+        </div>
+      </section>
+
+      <!-- Latest Reviews -->
+      <section id='latest-reviews' class='cards-section' style='margin-top:unset'>
+        <h6 style='font-weight: bold'>Latest Reviews</h6>
+
+        <div class='d-flex justify-content-between'>
+          <div style='width: 65%'>
+            <div class='d-flex justify-content-between'>
+              <p style='font-size: 14px; color: grey'>So you can make better purchase decision</p>
+              <p style='font-size: 14px; color: red'>See More  > </p>
             </div>
             
-            <div class="card">
-              <img src="./assets/ec-1.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <div class='card-rating d-flex'>
-                  <p class='rating'>4.9</p>
-                    <div class='stars d-flex'>
-                      <i style='color:red; font-size: 11px' class="fas fa-star"></i>
-                      <i style='color:red; font-size: 11px' class="fas fa-star"></i>
-                      <i style='color:red; font-size: 11px' class="fas fa-star"></i>
-                      <i style='color:red; font-size: 11px' class="fas fa-star"></i>
-                      <i style='color:red; font-size: 11px' class="fas fa-star"></i>
-                    </div>
-                  <p class='no-of-review'>(7)</p>
-                </div>
-                <h5 class="card-title">JUICE BEAUTY</h5>
-                <p class="card-text">Phyto-Pigments Flawless Serum asdasdasd</p>
-                <p class="sub-text">Rosy Beige</p>
-              </div>
-            </div>
+            <div id='latest-reviews-row' class="row">
+            </div>  
+
+            <div class='d-flex justify-content-between' style='width: 25%; align-items: center; margin:0 auto; color:#da284e5b; margin-top: 30px'>
+              <i class="fas fa-chevron-left"></i>
+              <i class="fas fa-circle" style='color: #da284f; font-size:8px; margin-top:auto; margin-bottom: auto'></i>
+              <i class="fas fa-circle" style='font-size:8px'></i>
+              <i class="fas fa-circle" style='font-size:8px'></i>
+              <i class="fas fa-circle" style='font-size:8px'></i>
+              <i class="fas fa-chevron-right" style='color: #da284f'></i>
           </div>
-
-          <div class="col p-1">
-
-            <div class='editor d-flex'>
-              <img src="./assets/curator-2.jpg" class="editor-pic" alt="..." style='    margin-bottom: -11px;'>
-              <div class='editor-detail'>
-                <p class='editor-name'>Arinda</p>
-                <p class='editor-role'>Senior Editor</p>
-              </div>
-            </div>
-
-            <div class="card">
-              <img src="./assets/ec-2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">JUICE BEAUTY</h5>
-                <p class="card-text">Phyd</p>
-                <p class="card-text sub-text">Rosy Beige</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col p-1">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">JUICE BEAUTY</h5>
-                <p class="card-text">Phy</p>
-                <p class="card-text sub-text">Rosy Beige</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col p-1">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">JUICE BEAUTY</h5>
-                <p class="card-text">Phyto-Pigments Flawless Serum asdasdasd</p>
-                <p class="card-text sub-text">Rosy Beige</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col p-1">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">JUICE BEAUTY</h5>
-                <p class="card-text">Phyto-Pigments Flawless Serum asdasdasd</p>
-                <p class="card-text sub-text">Rosy Beige</p>
-              </div>
-            </div>
-          </div> -->
 
           </div>
 
+        <div style='width: 30%'>
+          <div class="card h-100" style='border:unset'>
+            <div class="card-body" style='padding-right:unset'>
+
+              <div id='mr' class='review-ads'>
+                <div style='font-size: 26px; color:darkslategray'>MR 2<br>300x250</div>
+              </div>
+
+            </div>
+          </div>
+        </div>     
+        </div>
+
+      </section>
+
+      <!-- GROUPS -->
+      <section id='popular-groups' class='cards-section'>
+        <h6 style='font-weight: bold;'>Popular Groups</h6>
+        <div class='d-flex justify-content-between'>
+          <p style='font-size: 14px; color: grey'>Where the beauty TALK are</p>
+          <p style='font-size: 14px; color: red'>See More  > </p>
+        </div>
+
+        <div id='groups-row' class="row">
+        </div>
+      </section>
+      
+      <!-- VIDEOS -->
+      <section id='latest-videos' class='cards-section'>
+        <h6 style='font-weight: bold;'>Latest Videos</h6>
+        <div class='d-flex justify-content-between'>
+          <p style='font-size: 14px; color: grey'>Watch and learn, ladies</p>
+          <p style='font-size: 14px; color: red'>See More  > </p>
+        </div>
+
+        <div class='d-flex justify-content-between' style='height: 335px'>
+          <img src="./assets/video-1.jpg">
+          <div class='d-flex justify-content-between' style='flex-direction: column;'>
+            <img src="./assets/video-2.jpg" style='height: 48%'>
+            <img src="./assets/video-3.jpg" style='height: 48%'>
+          </div>
+        </div>
+      </section>
+
+      <!-- TRENDING -->
+      <section id='trending' class='cards-section'>
+        <h6 style='font-weight: bold;'>Trending This Week</h6>
+        <div class='d-flex justify-content-between'>
+          <p style='font-size: 14px; color: grey'>See our weekly most reviewed products</p>
+        </div>
+
+        <div id='trending-row' class="row">
+        </div>
+
+        <div class='d-flex justify-content-between' style='width: 12%; align-items: center; margin:0 auto; color:#da284e5b; margin-top: 30px'>
+          <i class="fas fa-chevron-left"></i>
+          <i class="fas fa-circle" style='color: #da284f; font-size:8px; margin-top:auto; margin-bottom: auto'></i>
+          <i class="fas fa-circle" style='font-size:8px'></i>
+          <i class="fas fa-chevron-right" style='color: #da284f'></i>
+      </div>
+
+      </section>
+
+      <!-- TOP BRANDS -->
+      <section id='brands' class='cards-section'>
+        <h6 style='font-weight: bold;'>Top Brands</h6>
+        <div class='d-flex justify-content-between'>
+          <p style='font-size: 14px; color: grey'>We all know and love</p>
+          <p style='font-size: 14px; color: red'>See More  > </p>
+        </div>
+
+        <div id='brand-row' class='d-flex justify-content-between'>
+          <img src="./assets/brand-1.jpg">
+        </div>
+
+      </section>
+      
+      <!-- CLOSING -->
+      <section id='closing' class='cards-section'>
+        <h6 style='font-size: 16px; font-weight: bold;'>Female Daily - Find everything you want to know about beauty on Female Daily</h6>
+
+        <p style='font-size: 16px; margin-bottom:unset'>Product Reviews, Tips & Tricks, Expert and Consumer Opinions, Beauty Tutorials, Discussions, Beauty Workshops, anything!</p>
+
+        <p style='font-size: 16px; margin-top:unset'>We are here to be your friendly solution to all things beauty, inside and out!</p>
+      </section>
+
+      <hr>
+
+      <!-- FOOTER -->
+      <div id='footer' style='margin-bottom: 2%'>
+        <img src="./assets/footer.jpg">
+      </div>
+
+      <!-- FOOTER BANNER -->
+      <section id='footer-banner' class='ads-banner'>
+        <div id='top-frame' class='top-bottom-frame'>Bottom Frame 970x50, 468x60, 320x50</div>
       </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>

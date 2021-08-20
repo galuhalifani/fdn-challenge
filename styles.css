@@ -32,7 +32,7 @@ body {
 
 .header p{
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: unset
 }
 
@@ -56,13 +56,13 @@ body {
     padding-right: 0.1rem
 }
 
-#ads-banner {
+.ads-banner {
     width: 65%;
     text-align: center;
     margin: 10px auto
 }
 
-#top-frame {
+.top-bottom-frame {
     background-color: lightgrey;
     padding: 5px;
     text-align: center;
@@ -70,11 +70,13 @@ body {
     border: 1px solid grey
 }
 
-#billboard {
+.big-ads {
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
     background-color: lightgrey;
-    line-height: 150px;
+    /* line-height: 150px; */
     text-align: center;
     font-weight: bold;
     height: 150px;
@@ -86,13 +88,13 @@ body {
 }
 
 #editors-choice {
+    margin: 3% auto
+}
+
+.cards-section {
     width: 75%;
     margin: 4% auto
 }
-
-/* .card {
-    justify-content: center;
-} */
 
 .card-title {
     font-weight: bold;
@@ -168,7 +170,18 @@ body {
 .card-rating p {
     font-size: 14px;
     margin: unset;
-    /* margin-right: 8px; */
+}
+
+.card-rating-trending p {
+    font-size: 12px;
+    margin: unset;
+}
+
+.card-rating-trending {
+    width: 95%;
+    align-items: center;
+    margin-bottom: 8px;
+    justify-content: space-between;
 }
 
 .rating {
@@ -178,4 +191,85 @@ body {
 
 .fa-star {
     margin-right: 2px
+}
+
+#matches-row {
+    justify-content: flex-start;
+}
+
+.matches {
+    background-color: #fddae0;
+    margin-bottom: 40px
+}
+
+.matches-banner {
+    height: 320px;
+    margin-right: 20px
+}
+
+#ads-banner-2 {
+    margin-bottom: 30px;
+}
+
+.card-img-article {
+    margin-top: unset!important;
+    object-fit: contain!important;
+    height: unset!important
+}
+
+#articles-col .card {
+    border: unset
+}
+
+.card-img-reviews {
+    margin-right: 15px;
+    margin-top: unset!important;
+    object-fit: cover!important;
+    width: 20%;
+    height: 70px!important
+}
+
+.overflow-ellipsis {
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    max-width: 300ch
+    /* -webkit-line-clamp: 3!important;
+    -webkit-box-orient: vertical; */
+}
+
+#review-text {
+    display: block;
+    font-size: 12px
+}
+
+.reviewer-pic {
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    z-index: 2
+}
+
+.review-ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    background-color: lightgrey;
+    /* line-height: 150px; */
+    text-align: center;
+    font-weight: bold;
+    height: 250px;
+    border: 1px solid grey
+}
+
+#footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#footer img {
+    margin: 0 auto;
+    height: 170px
 }
