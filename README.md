@@ -1,4 +1,4 @@
-# Female Daily Website Static Replica (Image Slicing)
+# Female Daily Website Static Replica Demo
 
 _**To run:**_
 
@@ -13,3 +13,5 @@ _**To run:**_
 
     1. Best to view using browser window size of 100% (zoom browser window to 100%)
     2. Currently not mobile responsive
+    3. Components are taken from sample website with image slicing method
+    4. Website is static, no clicks or linking out to other pages
