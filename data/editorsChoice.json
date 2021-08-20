@@ -1,0 +1,47 @@
+[
+    {
+        "editorName": "Arinda",
+        "editorRole": "Senior Editor",
+        "title": "JUICE BEAUTY",
+        "rating": 4.9,
+        "rater": 7,
+        "description": "Phyto-Pigments Flawless Serum blablabla",
+        "variant": "Rosy Beige"
+    },
+    {
+        "editorName": "Andien",
+        "editorRole": "Senior Editor",
+        "title": "VAL BY VALERIE THOMAS",
+        "rating": 4.9,
+        "rater": 7,
+        "description": "Phyto-Pigments Flawless Serum blablabla",
+        "variant": "Rosy Beige"
+    },
+    {
+        "editorName": "Ochel",
+        "editorRole": "Senior Editor",
+        "title": "JUICE BEAUTY",
+        "rating": 4.9,
+        "rater": 7,
+        "description": "Phyto-Pigments Flawless Serum blablabla",
+        "variant": ""
+    },
+    {
+        "editorName": "Arinda",
+        "editorRole": "Senior Editor",
+        "title": "JUICE BEAUTY",
+        "rating": 4.9,
+        "rater": 7,
+        "description": "Phyto-Pigments Flawless Serum blablabla",
+        "variant": "Rosy Beige"
+    },
+    {
+        "editorName": "Andien",
+        "editorRole": "Senior Editor",
+        "title": "JUICE BEAUTY",
+        "rating": 4.9,
+        "rater": 7,
+        "description": "Beauty Serum",
+        "variant": ""
+    }
+]

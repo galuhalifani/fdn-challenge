@@ -10,22 +10,138 @@
     <link rel='stylesheet' href='styles.css'>
 </head>
 <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container-fluid">
           <i class="fas fa-bars"></i>
           <a class="navbar-brand" href="#"><img src='./assets/logo-fdn.jpg' style='height:40px'></a>
           <div style='display:flex;justify-content:space-between' class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div style='width:80%;margin-right:10px'>
+            <div class='searchBar'>
             <form class="d-flex" style='width:100%; height: 35px'>
                 <i class="fas fa-search" style='position:absolute; margin-top: 12px; margin-left:5px; font-size: 12px; color: lightgrey'></i>
                 <input style='font-size:10px' class="form-control me-2" type="search" placeholder="Search products, articles, topics, brands, etc." aria-label="Search">
             </form>
             </div>
-            <button style='border-radius:unset; width:20%; font-size: 12px; height: 50px; background-color: #d63b60;' class="btn btn-danger" type="submit">LOGIN / SIGNUP</button>
+            <button class="btn btn-danger signup-button" type="submit"><img src='./assets/user-icon.jpg' style='height:25px; margin-top: -3px; margin-right: 8px'>LOGIN / SIGNUP</button>
           </div>
         </div>
       </nav>
 
+      <!-- HEADER -->
+      <div class='header'>
+        <p>SKINCARE</p>
+        <p>MAKEUP</p>
+        <p>BODY</p>
+        <p>HAIR</p>
+        <p>FRAGRANCE</p>
+        <p>NAILS</p>
+        <p>TOOLS</p>
+        <p>BRANDS</p>
+      </div>
+      <hr style='margin:unset; margin-top: 0.5rem'>
+
+      <!-- ADS BANNER -->
+      <section id='ads-banner'>
+        <div id='top-frame'>Top Frame 970x50</div>
+        <div id='billboard'>Billboard 970x250</div>
+      </section>
+
+      <!-- EDITORS CHOICE -->
+      <section id='editors-choice'>
+        <h6 style='font-weight: bold;'>Editor's Choice</h6>
+        <p style='font-size: 14px; color: grey'>Curated with love</p>
+        
+        <div id='editors-choice-row' class="row">
+
+          <!-- <div class="col p-1">
+            <div class='editor d-flex'>
+              <img src="./assets/curator-1.jpg" class="editor-pic" alt="...">
+              <div class='editor-detail'>
+                <p class='editor-name'>Arinda</p>
+                <p class='editor-role'>Senior Editor</p>
+              </div>
+            </div>
+            
+            <div class="card">
+              <img src="./assets/ec-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class='card-rating d-flex'>
+                  <p class='rating'>4.9</p>
+                    <div class='stars d-flex'>
+                      <i style='color:red; font-size: 11px' class="fas fa-star"></i>
+                      <i style='color:red; font-size: 11px' class="fas fa-star"></i>
+                      <i style='color:red; font-size: 11px' class="fas fa-star"></i>
+                      <i style='color:red; font-size: 11px' class="fas fa-star"></i>
+                      <i style='color:red; font-size: 11px' class="fas fa-star"></i>
+                    </div>
+                  <p class='no-of-review'>(7)</p>
+                </div>
+                <h5 class="card-title">JUICE BEAUTY</h5>
+                <p class="card-text">Phyto-Pigments Flawless Serum asdasdasd</p>
+                <p class="sub-text">Rosy Beige</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col p-1">
+
+            <div class='editor d-flex'>
+              <img src="./assets/curator-2.jpg" class="editor-pic" alt="..." style='    margin-bottom: -11px;'>
+              <div class='editor-detail'>
+                <p class='editor-name'>Arinda</p>
+                <p class='editor-role'>Senior Editor</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/ec-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JUICE BEAUTY</h5>
+                <p class="card-text">Phyd</p>
+                <p class="card-text sub-text">Rosy Beige</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col p-1">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JUICE BEAUTY</h5>
+                <p class="card-text">Phy</p>
+                <p class="card-text sub-text">Rosy Beige</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col p-1">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JUICE BEAUTY</h5>
+                <p class="card-text">Phyto-Pigments Flawless Serum asdasdasd</p>
+                <p class="card-text sub-text">Rosy Beige</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col p-1">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JUICE BEAUTY</h5>
+                <p class="card-text">Phyto-Pigments Flawless Serum asdasdasd</p>
+                <p class="card-text sub-text">Rosy Beige</p>
+              </div>
+            </div>
+          </div> -->
+
+          </div>
+
+      </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src='./script.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
