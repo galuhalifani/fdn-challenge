@@ -13,7 +13,7 @@ _**To run:**_
 
 - Best to view using browser window size of 100% (zoom browser window to 100%)
 - Currently not mobile responsive
-- Components are taken from sample website with image slicing method
+- Components are taken from sample website with image slicing method. Images and data are stored locally in fdn-static/assets folder
 - Website is static, no clicks or linking out to other pages
 
 
