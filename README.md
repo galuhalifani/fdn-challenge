@@ -11,10 +11,10 @@ _**To run:**_
 
 **Notes**
 
-    1. Best to view using browser window size of 100% (zoom browser window to 100%)
-    2. Currently not mobile responsive
-    3. Components are taken from sample website with image slicing method
-    4. Website is static, no clicks or linking out to other pages
+- Best to view using browser window size of 100% (zoom browser window to 100%)
+- Currently not mobile responsive
+- Components are taken from sample website with image slicing method
+- Website is static, no clicks or linking out to other pages
 
 
 # B. Female Daily Website Static - React + Redux
