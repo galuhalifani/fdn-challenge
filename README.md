@@ -29,11 +29,13 @@ _**To run:**_
     1. Clone repo
     ```git clone```
     
-    1. Navigate to react folder
+    2. Navigate to react folder
     ```cd fdn-react/```
-
+      
+    3. Install dependencies
     ```npm install```
 
+    4. Run app in development mode
     ```npm run start```
 
 **Notes**
