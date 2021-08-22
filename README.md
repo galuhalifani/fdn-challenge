@@ -1,4 +1,4 @@
-# A. Female Daily Website Static Replica Demo
+# A. Female Daily Website Static - HTML JQuery
 
 _**To run:**_
 
