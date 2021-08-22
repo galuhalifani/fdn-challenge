@@ -1,0 +1,3 @@
+export const SET_EDITOR_CHOICE = "SET_EDITOR_CHOICE";
+export const SET_ARTICLES = "SET_ARTICLES";
+export const SET_REVIEWS = "SET_REVIEWS";

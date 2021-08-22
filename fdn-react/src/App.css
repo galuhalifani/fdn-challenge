@@ -36,3 +36,287 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin-left: 5%;
+  margin-right: 5%
+}
+
+.navbar {
+  background-color: white!important;
+}
+
+.container-fluid {
+  height: 50px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: unset;
+  padding-left: 15px
+}
+
+.navbar-brand {
+  margin-left: 10px
+}
+
+.form-control {
+  padding-left: 1.5rem
+}
+
+.header {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header p{
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: unset
+}
+
+.signup-button {
+  border-radius:unset; 
+  width:20%; 
+  font-size: 12px; 
+  height: 50px; 
+  background-color: #da284f;
+  align-items: center;
+  color: #fae4e8
+}
+
+.searchBar {
+  width:80%;
+  margin-right:10px
+}
+
+.btn {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem
+}
+
+.ads-banner {
+  width: 70%;
+  text-align: center;
+  margin: 10px auto
+}
+
+.top-bottom-frame {
+  background-color: lightgrey;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid grey
+}
+
+.big-ads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: lightgrey;
+  /* line-height: 150px; */
+  text-align: center;
+  font-weight: bold;
+  height: 150px;
+  border: 1px solid grey
+}
+
+.row {
+  justify-content: space-between;
+}
+
+#editors-choice {
+  margin: 3% auto
+}
+
+.cards-section {
+  width: 80%;
+  margin: 4% auto
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 0.25rem
+}
+
+.card-body {
+  flex: unset
+}
+
+.card img {
+  margin-top: 10px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.card p {
+  margin-bottom: 2px;
+  overflow: hidden;
+  display: -webkit-box;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical
+}
+
+.card-text {
+  font-weight: bold;
+}
+
+.sub-text {
+  color: lightslategray;
+}
+
+.editor {
+  align-items: flex-end;
+  margin-left: 10px;
+  justify-content: flex-start;
+}
+
+.editor-pic {
+  height: 45px;
+  margin-bottom: -13px;
+  margin-right: 8px;
+  font-size: 30px;
+  z-index: 2
+}
+
+.editor-detail {
+  margin-bottom: 3px
+}
+
+.editor-name {
+  font-size: 11px; 
+  font-weight: bold;
+  margin:unset
+}
+
+.editor-role {
+  font-size: 9px; 
+  margin:unset;
+  color: darkgray
+}
+
+.card-rating {
+  width: 95%;
+  align-items: center;
+  margin-bottom: 8px;
+  justify-content: space-between;
+}
+
+.card-rating p {
+  font-size: 14px;
+  margin: unset;
+}
+
+.card-rating-trending p {
+  font-size: 12px;
+  margin: unset;
+}
+
+.card-rating-trending {
+  width: 95%;
+  align-items: center;
+  margin-bottom: 8px;
+  justify-content: space-between;
+}
+
+.rating {
+  font-weight: bold;
+  margin-right: 2px!important
+}
+
+.fa-star {
+  margin-right: 2px
+}
+
+#matches-row {
+  justify-content: flex-start;
+}
+
+.matches {
+  background-color: #fddae0;
+  margin-bottom: 40px
+}
+
+.matches-banner {
+  height: 320px;
+  margin-right: 20px
+}
+
+#ads-banner-2 {
+  margin-bottom: 30px;
+}
+
+.card-img-article {
+  margin-top: unset!important;
+  object-fit: contain!important;
+  height: unset!important
+}
+
+#articles-col .card {
+  border: unset
+}
+
+.card-img-reviews {
+  margin-right: 15px;
+  margin-top: unset!important;
+  object-fit: cover!important;
+  width: 20%;
+  height: 70px!important
+}
+
+.overflow-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  max-width: 300ch
+  /* -webkit-line-clamp: 3!important;
+  -webkit-box-orient: vertical; */
+}
+
+#review-text {
+  display: block;
+  font-size: 12px
+}
+
+.reviewer-pic {
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  z-index: 2
+}
+
+.review-ads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background-color: lightgrey;
+  /* line-height: 150px; */
+  text-align: center;
+  font-weight: bold;
+  height: 250px;
+  border: 1px solid grey
+}
+
+#footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#footer img {
+  margin: 0 auto;
+  width: 100%
+}
+
+.page-disabled {
+  color: #da284e5b
+}
+
+.page-enabled {
+  color: #da284f
+}
