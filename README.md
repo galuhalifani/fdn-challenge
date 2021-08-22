@@ -6,8 +6,8 @@ _**To run:**_
 
 -  Or run from development / source code:
 
-       1. Git Clone or copy entire 'static' folder with assets
-       2. Open index.html under 'static' folder in browser (preferably Chrome)
+       1. Git Clone or copy entire 'fdn-static' folder with assets
+       2. Open index.html under 'fdn-static' folder in browser (preferably Chrome)
 
 **Notes**
 
