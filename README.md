@@ -17,6 +17,7 @@ _**To run:**_
 - Website is static, no clicks or linking out to other pages
 
 
+
 # B. Female Daily Website Static - React + Redux
 
 _**To run:**_
@@ -24,6 +25,10 @@ _**To run:**_
 - View hosted site **[here](http://fdn-static-ga.s3-website-us-east-1.amazonaws.com/)**
 
 -  Or run from development / source code:
+
+       1. Git Clone or copy entire 'fdn-static' folder with assets
+       2. ```npm install```
+       3. Open index.html under 'fdn-static' folder in browser (preferably Chrome)
 
     ```git clone / copy folder 'fdn-react'```
 
