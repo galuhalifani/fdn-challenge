@@ -26,11 +26,11 @@ _**To run:**_
 
 -  Or run from development / source code:
 
-       1. Git Clone or copy entire 'fdn-static' folder with assets
-       2. ```npm install```
-       3. Open index.html under 'fdn-static' folder in browser (preferably Chrome)
-
-    ```git clone / copy folder 'fdn-react'```
+    1. Clone repo
+    ```git clone```
+    
+    1. Navigate to react folder
+    ```cd fdn-react/```
 
     ```npm install```
 
