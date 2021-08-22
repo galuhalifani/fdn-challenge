@@ -2,7 +2,7 @@
 
 _**To run:**_
 
-- View hosted site **[here](http://fdn-static-ga.s3-website-us-east-1.amazonaws.com/)**
+- View hosted site **[here](https://female-daily-sample-react.web.app/)**
 
 -  Or run from development / source code:
 
